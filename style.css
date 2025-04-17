@@ -82,7 +82,7 @@
     list-style: lower-latin;
   }
   a:link{
-    color: rgb(27, 132, 27);
+    color: #a66;
   }
 
   a:visited{
@@ -92,21 +92,20 @@
   a:focus{
     outline: none;
     color: aqua;
-    border: 1px solid brown;
+    border: 1px solid black;
     text-decoration: none;
+    
   }
+  a:focus-visible{
+    outline: none;
+  }
+  
   a:hover{
     color: brown;
     text-decoration: none;
   }
 
-  a:active{
-    color: green;
-  }
   
-  a:focus-visible{
-    text-decoration: none;
-  }
   
 
   aside ul{
@@ -137,3 +136,6 @@
     background-color: blanchedalmond;
 }
   
+
+
+
