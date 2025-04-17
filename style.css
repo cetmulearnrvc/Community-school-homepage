@@ -1,0 +1,139 @@
+/* General setup */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height : 23px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+  }
+  
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+    font-size: 17px;
+  }
+  header
+  {
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+   
+  }
+  aside {
+    float: left;
+    width: 30%;
+    font-size: 17px;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+    font-size: 17px;
+  }
+  
+  footer {
+    clear: both;
+    font-size: 17px;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  
+
+  .indent{
+    text-indent: 20px;
+  }
+
+  a:link{
+    color: blue;
+  }
+  
+
+  a[href^="https"]::after{
+    content: "";
+    display: inline-block;
+    width : 0.8rem;
+    height: 0.8rem;
+    background-size: 100%;
+    background-image: url("external-link-52.png");
+  }
+
+  
+
+  ol{
+    list-style: lower-latin;
+  }
+  a:link{
+    color: rgb(27, 132, 27);
+  }
+
+  a:visited{
+    color: rgb(210, 55, 210);
+  }
+
+  a:focus{
+    outline: none;
+    color: aqua;
+    border: 1px solid brown;
+    text-decoration: none;
+  }
+  a:hover{
+    color: brown;
+    text-decoration: none;
+  }
+
+  a:active{
+    color: green;
+  }
+  
+  a:focus-visible{
+    text-decoration: none;
+  }
+  
+
+  aside ul{
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    line-height:25px ;
+    list-style: circle;
+  }
+
+  nav ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  
+  nav a{
+    flex: 1;
+    display: block;
+    padding: 15px;
+    font-size: 20px;
+    text-decoration: black;
+    text-align: center;
+    border: 1px solid brown;
+    background-color: blanchedalmond;
+}
+  
