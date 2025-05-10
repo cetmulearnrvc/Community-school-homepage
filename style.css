@@ -92,20 +92,15 @@
     color: rgb(210, 55, 210);
   }
 
-  a:focus{
-    outline: none;
+  a:focus-visible{
+    /* outline: none; */
     color: aqua;
     border: 1px solid black;
     text-decoration: none;
     
   }
-  a:focus-visible{
-    outline: none;
-  }
   
-a:focus-visible{
-    text-decoration: none;
-  }
+  
 
   a:hover{
     color: brown;
