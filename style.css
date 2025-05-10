@@ -1,6 +1,6 @@
 /* General setup */
 
-* {
+*{
     box-sizing: border-box;
   }
   
@@ -81,10 +81,13 @@
   ol{
     list-style: lower-latin;
   }
-  a:link{
+  /* a:link{
     color: #a66;
+  } */
+  a:active
+  {
+    color: blue;
   }
-
   a:visited{
     color: rgb(210, 55, 210);
   }
@@ -100,6 +103,10 @@
     outline: none;
   }
   
+a:focus-visible{
+    text-decoration: none;
+  }
+
   a:hover{
     color: brown;
     text-decoration: none;
